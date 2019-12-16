@@ -1,0 +1,218 @@
+/*general*/
+* {
+  color: #fff !important;
+  font-weight: 100 !important;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background: -moz-linear-gradient(
+    220deg,
+    rgba(92, 32, 151, 1) 0%,
+    rgba(97, 51, 143, 1) 68%,
+    rgba(126, 76, 176, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    220deg,
+    rgba(92, 32, 151, 1) 0%,
+    rgba(97, 51, 143, 1) 68%,
+    rgba(126, 76, 176, 1) 100%
+  );
+  background: linear-gradient(
+    220deg,
+    rgba(92, 32, 151, 1) 0%,
+    rgba(97, 51, 143, 1) 68%,
+    rgba(126, 76, 176, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5c2097",endColorstr="#7e4cb0",GradientType=1);
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+#tache {
+  z-index: -1;
+  position: fixed;
+  right: -30%;
+  top: 75%;
+}
+
+/*Navbar*/
+#header {
+  padding-bottom: 30px;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar ul li {
+  margin-left: 40px;
+  padding-top: 20px;
+}
+
+.navbar ul li a {
+  font-size: 20px;
+  opacity: 0.7;
+  transition: 0.2s ease-in;
+}
+
+.navbar ul li a:hover {
+  opacity: 1;
+  color: black !important;
+  background-color: #fff;
+  border-radius: 20px;
+  border-top-right-radius: 2px;
+}
+.active {
+  opacity: 1;
+  color: black !important;
+  background-color: #fff;
+  border-radius: 20px;
+  border-top-right-radius: 2px;
+}
+
+/*Présentation*/
+
+#pres {
+  width: 85%;
+}
+#pres h1 {
+  margin-bottom: 30px;
+  font-weight: bold !important;
+}
+
+#block2 {
+  margin-top: 15%;
+}
+
+#pres .btn {
+  margin-top: 15px;
+  background-color: #fff;
+  border-radius: 15px;
+  border-color: #fff !important;
+  color: black !important;
+  font-weight: 600 !important;
+  transition: 0.2s ease-in;
+}
+
+#pres .btn:hover {
+  border-top-right-radius: 2px;
+}
+
+/*Qui sommes-nous*/
+
+#who {
+  width: 85%;
+}
+#who h1 {
+  margin-bottom: 30px;
+  font-weight: bold !important;
+}
+
+#block_who {
+  margin-top: 15%;
+}
+
+/*la boutique*/
+
+#shop {
+  margin-top: 100px;
+}
+
+#shop h1 {
+  padding-bottom: 35px;
+  font-weight: 900 !important;
+}
+
+#tarifs {
+  margin-bottom: 55px;    
+}
+
+.card {
+  margin-right: 55px;
+  background-color: #098de1 !important;
+  opacity: 0.8;
+}
+
+.card-header {
+  font-size: 25px;
+  font-weight: 800;
+}
+.card-body ul li {
+  list-style: symbols(v);
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #ccc !important;
+  font-weight: 600;
+}
+
+.card-footer {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+/*contact part*/
+
+#contact_form {
+  font-size: 18px;
+  margin-bottom: 50px;
+  padding: 40px;
+  color: #ccc !important;
+}
+
+.blue {
+  color: #ccc !important;
+}
+
+.form-control {
+  height: 50px;
+  font-size: 18px;
+}
+
+.comments {
+  font-style: italic;
+  color: #ccc;
+  height: 25px;
+  font-size: 14px;
+}
+
+input,
+textarea {
+  border-color: #ddd !important;
+  color: rgb(37, 37, 37) !important;
+}
+
+.button1 {
+  margin: 40px 0px;
+  width: 50%;
+  padding: 18px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold !important;
+  text-transform: uppercase;
+  background-color: #ccc !important;
+  color: #000 !important;
+  letter-spacing: 2px;
+  transition: all 0.2s ease-in !important;
+}
+
+.button1:hover {
+  background-color: #1d1c1d !important;
+  border-top-right-radius: 2px !important;
+  color: #ccc !important;
+}
+
+.thank-you {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+textarea {
+  height: 150px !important;
+}
